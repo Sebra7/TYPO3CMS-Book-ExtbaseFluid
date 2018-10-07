@@ -112,6 +112,8 @@ hard-coded in the TYPO3 core and you have to use this to define your own text.
    The possibilities to impact the TCA are immense.
    You can find a complete listing of all options at :ref:`TYPO3 Core APIs <t3coreapi:start>`.
 
+So, as next we need to create our Language file "locallang_db.xlf", in the Directory as shown above and have to put in the following XML code.
+
 .. code-block:: xml
 
    <?xml version="1.0" encoding="UTF-8"?>
@@ -148,8 +150,7 @@ hard-coded in the TYPO3 core and you have to use this to define your own text.
 
    If you later want to overwrite the TCA from an existing database table, then you must use the file :file:`EXT:store_inventory/Configuration/TCA/Overrides/[tablename].php`.
 
-
-After we installed the extension, we can create our first products in the backend.
+After we installed the extension, like described at :ref:`TYPO3 Core APIs <t3coreapi:<t3coreapi:start>` under "/Extension Architecture/Extension Management/Installing Extensions", we can create our first products in the backend.
 
 Like shown in image 4-2, we create a sys folder that takes the products (see 1 in figure 4-2).
 In this, we put some few new inventory data (see 2 in figure 4-2 and 3 in 4-3).
